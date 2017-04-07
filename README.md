@@ -1,7 +1,7 @@
 Simple Problem Solving Using Ruby
 =================================
-###### A collection of simple problems to solve and my solutions.
-*I may also find solutions in other languages after I've completed them using Ruby.*
+##### A collection of simple problems to solve and my solutions.
+###### *I may also find solutions in other languages after I've completed them using Ruby.*
 ______________________________________
 
 1. As tradition requires, say "Hello" to the world!

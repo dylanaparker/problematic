@@ -17,3 +17,4 @@ range_2.each do |number|
   sum = sum + number
 end
 # print the sum
+puts sum

@@ -13,4 +13,7 @@ range.each do |number|
 end
 puts range_2 # Used to test
 # loop through and add all numbers in new array
+range_2.each do |number|
+  sum = sum + number
+end
 # print the sum

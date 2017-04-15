@@ -1,5 +1,6 @@
 # problem number 6: choice to add or multiply all numbers in a range
-# populate rangeputs 'Pick a number'
+# populate range
+puts 'Pick a number'
 last = gets.chomp.to_i
 numbers = (1..last).to_a
 puts numbers # test
@@ -10,5 +11,12 @@ To find the product, type: MULTIPLY"
 choice = gets.chomp.upcase
 puts choice # test
 # if add loop through and add
+if choice == "ADD"
+  result = 0
+  numbers.each do |number|
+    result = result + number
+  end
+  puts result
+end
 # else if multiply loop through and multiply
 # print results

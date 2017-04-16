@@ -12,11 +12,13 @@ choice = gets.chomp.upcase
 puts choice # test
 # if add loop through and add
 if choice == "ADD"
-  result = 0
+  result = "".to_i
   numbers.each do |number|
     result = result + number
+    puts result
   end
-  puts result
+elsif choice == "MULTIPLY"
+  puts numbers.inject(:*)
 end
 # else if multiply loop through and multiply
 # print results

@@ -16,7 +16,7 @@ ______________________________________
 
 6. Write a program that asks the user for a number n and gives him the possibility to choose between computing the sum and computing the product of 1,…,n.
 
-7. Write a program that prints a multiplication table for numbers up to 12.
+7. Write a program that prints times tables for a user selected number and length.
 
 8. Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can easily represent is fine too.)
 

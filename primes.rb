@@ -5,5 +5,7 @@ require "Prime"
 puts "How many prime numbers would you like to see?\n"
 # Store amount in variable
 amount = gets.chomp.to_i
+# add new line for asthetics
+print "\n"
 # print "first" n prime numbers
 puts Prime.first amount
